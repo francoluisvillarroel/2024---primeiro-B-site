@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin:  0;
+    padding:  0;
+}
+
 :root{
     --vermelho: #f72585ff;
     --roxo: #7209b7ff;
     --azul-forte: #3a0ca3ff;
     --azul: #4361eeff;
     --azul-claro: #4cc9f0ff;
+    --fonte-titulo: "IBM Plex Serif", serif;
+    --fonte-texto: "DM Sans", sans-serif;
+}   
+
+body{
+    background-color: var(--azul-claro);
+    font-family: var(--fonte-texto);
+
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azul-forte);
 }
