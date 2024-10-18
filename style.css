@@ -26,3 +26,25 @@ body{
     justify-content: space-between;
     background-color: var(--azul-forte);
 }
+
+
+ .cabecalho-logo{
+    width: 18;
+    border-radius: 100%;
+    padding: lem;
+ }
+
+ .cabecalho-link{
+  text-decoration: nome;
+  color:var(--azul-claro);
+  font-size: 2em;
+  margin-right: 1em;
+ }
+
+ .cabecalho-link:hover{
+    color:var(--azul-claro);
+    font-size: 1.9em;
+    transition: 0.3s;
+ }
+
+
