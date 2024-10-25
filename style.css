@@ -47,4 +47,37 @@ body{
     transition: 0.3s;
  }
 
+.principal-capa{
+    background-color:var(--vermelho);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+}
 
+.principal-capa_titulo{
+    font-size: 5em;
+    font-family:var(--fonte-titulo);
+}
+
+.principal-capa_texto{
+    font-size: 3em;
+}
+
+.principal-capa_img{
+    width: 30%;
+    border-radius: 10%px;
+}
+
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-capa_botao{
+    background-color: var(verde);
+    text-decoration: none;
+    padding: 1.3em;
+    color:var(--preto)
+
+}
